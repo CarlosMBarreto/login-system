@@ -3,17 +3,22 @@
 <head>
   <meta charset="UTF-8">
   <title>Home</title>
+  <link rel="stylesheet" href="style.css">
 </head>
 <body>
 
-  <h1>Bem-vindo!</h1>
-  <button onclick="logout()">Sair</button>
+<div class="container">
+  <h2>Bem-vindo 👋</h2>
+  <p style="color: gray;">Você está logado no sistema</p>
 
-  <script>
-    function logout() {
-      window.location.href = "index.html";
-    }
-  </script>
+  <button onclick="logout()">Sair</button>
+</div>
+
+<script>
+function logout() {
+  window.location.href = "index.html";
+}
+</script>
 
 </body>
 </html>
