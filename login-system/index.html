@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+  <meta charset="UTF-8">
+  <title>Sistema de Login</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+<div class="container">
+
+  <!-- LOGIN -->
+  <div id="loginBox">
+    <h2>Login</h2>
+    <input type="text" id="loginUsuario" placeholder="Usuário">
+    <input type="password" id="loginSenha" placeholder="Senha">
+    <button onclick="login()">Entrar</button>
+    <p onclick="mostrarCadastro()" style="cursor:pointer;">Criar conta</p>
+  </div>
+
+  <!-- CADASTRO -->
+  <div id="cadastroBox" style="display:none;">
+    <h2>Cadastro</h2>
+    <input type="text" id="cadUsuario" placeholder="Novo usuário">
+    <input type="password" id="cadSenha" placeholder="Nova senha">
+    <button onclick="cadastrar()">Cadastrar</button>
+    <p onclick="mostrarLogin()" style="cursor:pointer;">Voltar</p>
+  </div>
+
+  <p id="mensagem"></p>
+
+</div>
+
+<script src="script.js"></script>
+</body>
+</html>
