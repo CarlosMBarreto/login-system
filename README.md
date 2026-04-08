@@ -22,7 +22,7 @@ Projeto desenvolvido para praticar autenticação básica e manipulação do DOM
 3. Faça login
 
 ## 🌐 Projeto Online
-https://seuusuario.github.io/login-system
+https://carlosmbarreto.github.io/login-system
 
 ## Observação
 Este projeto não utiliza banco de dados real, sendo apenas para fins de estudo.
