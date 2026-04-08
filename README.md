@@ -26,8 +26,7 @@ https://carlosmbarreto.github.io/login-system
 
 ## Observação
 Este projeto não utiliza banco de dados real, sendo apenas para fins de estudo.
-<<<<<<< HEAD
 
 ## 📷 Preview
-![preview](create-accont-screen.png)
-![preview](image.png)
+creation acconts screen ![preview](image.png)
+home screen ![preview](image.png)
