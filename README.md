@@ -23,3 +23,6 @@ Projeto desenvolvido para praticar autenticação básica e manipulação do DOM
 
 ## Observação
 Este projeto não utiliza banco de dados real, sendo apenas para fins de estudo.
+
+## 📷 Preview
+![preview](create-accont-screen.png)
